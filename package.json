@@ -1,0 +1,22 @@
+{
+  "name": "@amendable/hash",
+  "version": "0.1.0",
+  "description": "Murmur Hash",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/amendable/hash",
+  "bugs": {
+    "url": "https://github.com/amendable/hash/issues"
+  },
+  "repository": "amendable/hash",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {}
+}
