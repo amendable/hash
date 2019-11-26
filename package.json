@@ -5,7 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "homepage": "https://github.com/amendable/hash",
   "bugs": {
@@ -13,10 +14,11 @@
   },
   "repository": "amendable/hash",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "tsd": "^0.11.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest && tsd"
   },
   "dependencies": {}
 }
